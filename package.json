@@ -38,7 +38,7 @@
     "grunt": "~0.4.0",
     "MD5": "~1.0.3",
     "underscore": "~1.4.4",
-    "jsdom": "~0.5.7",
+    "jsdom": "3.1.0",
     "wrench": "~1.4.4",
     "grunt-simple-mocha": "~0.4.0"
   }

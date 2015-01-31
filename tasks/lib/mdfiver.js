@@ -40,10 +40,11 @@ mdfiver.prototype.checkIfValidUrl = function(p) {
 };
 
 mdfiver.prototype.parseToDom = function() {
-    this.head = jsdom( 
+    var doc = jsdom( 
         this.html,
         null
-    ).createWindow().document.getElementsByTagName("html")[0];
+    );
+    this.head = doc.getElementsByTagName("html")[0];
 };
 
 mdfiver.prototype.getPaths = function(tag) {
